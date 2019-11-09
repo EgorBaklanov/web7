@@ -1,0 +1,41 @@
+body {
+	background-color: #eee;
+	padding-bottom: 0;
+}
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+
+@media screen and (min-width: 768px) {
+	.text-md-left {
+		text-align: left;
+	}
+}
+
